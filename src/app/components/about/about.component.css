@@ -1,0 +1,75 @@
+.about_container{
+  width: 100%;
+  height: 790px;
+  top:790px;
+  background-color: rgba(27, 27, 72, 0.94);
+  text-align: center;
+}
+
+.about_titre{
+  text-align: center;
+  position: relative;
+  top: 40%;
+  font-family: "Raleway Black";
+  color: white;
+}
+
+.about_icon_container{
+  top: 50%;
+  display: flex;
+  justify-content: space-around;
+  transition: all 0.2s;
+  text-align: center;
+  position: relative;
+}
+
+.about_icon_container_1{
+  text-align: center;
+  width: 100%;
+}
+
+.about_icon{
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  top: 0;
+  transition: all 0.5s ease;
+  width: 5vw;
+  height: 5vw;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;}
+
+.about_icon_hovered{
+  top: -10px;
+  transition: all 0.3s;
+}
+
+.about_icon_text{
+  color: white;
+  text-decoration: none;
+  font-size: 100%;
+  font-family: "Raleway Italic";
+  transition: ease-in-out 1s;
+  white-space: nowrap;
+  cursor: pointer;
+  opacity: 0;
+}
+
+.about_icon_text_hovered{
+  opacity: 1;
+  transform: translate(0px,5px);
+}
+
+@keyframes slide-up-fade-in{
+  0% {
+    opacity:0;
+    transform:  translate(0px,5px)  ;
+  }
+  100% {
+    opacity:1;
+    transform:  translate(0px,0px)  ;
+  }
+}
+
+

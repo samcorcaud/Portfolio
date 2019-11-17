@@ -1,0 +1,41 @@
+.home_container{
+  height: 790px;
+  background-image: linear-gradient(to bottom, rgba(83, 155, 173, 0.83), rgba(56, 56, 154, 0.64));
+  display: block;
+  background-color: black;
+  overflow: hidden;
+
+}
+
+.home_title{
+  top: 35%;
+  position: relative;
+  color: white;
+  font-size: 200%;
+  max-font-size: 20px;
+  font-family: "Raleway Black";
+  text-align: center;
+}
+
+.home_subtitle{
+  font-size: 100%;
+  max-font-size: 50px;
+  color: white;
+  font-family: "Raleway Italic";
+  position: relative;
+  top: 35%;
+  padding: 5px 75px 0px 75px;
+  text-align: center;
+
+}
+
+.home_icon_container{
+  top: 50%;
+  height: 70px;
+  display: flex;
+  justify-content: space-around;
+  transition: all 0.2s;
+  text-align: center;
+  position: relative;
+}
+

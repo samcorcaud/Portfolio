@@ -1,0 +1,10 @@
+<div class="about_container">
+  <div class="about_titre">Technologies that I work with</div>
+  <div class="about_icon_container">
+    <div class="about_icon_container_1" *ngFor="let i = index; let competence of competences"
+         (mouseover)="competence.isHovered=true" (mouseout)="competence.isHovered=false">
+      <img [ngClass]="{'about_icon_hovered': competence.isHovered}" class="about_icon" src={{competence.url}} id="textest">
+      <span [ngClass]="{'about_icon_text_hovered': competence.isHovered}" class="about_icon_text">{{competence.text}}</span>
+    </div>
+  </div>
+</div>

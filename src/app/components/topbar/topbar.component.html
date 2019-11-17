@@ -1,0 +1,15 @@
+
+<div class="topbar_container" [ngClass]="{'visible':isOpen}">
+  <div class="topbar_button" (click)="homeIsClicked()">Home</div>
+  <div class="topbar_button" (click)="aboutIsClicked()">About</div>
+  <div class="topbar_button" (click)="resumeIsClicked()">Resume</div>
+  <div class="topbar_button" (click)="contactIsClicked()">Contact</div>
+</div>
+<div class="topbar_burger" >
+  <div class="hamburger" id="hamburger-6" [ngClass]="{'is-active': isOpen}" (click)="toogle()">
+    <span class="line"></span>
+    <span class="line"></span>
+    <span class="line"></span>
+  </div>
+</div>
+

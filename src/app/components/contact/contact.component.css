@@ -1,0 +1,53 @@
+.contact_container{
+  height: 790px;
+  width: 100%;
+  background-color: rgba(7, 9, 41, 0.94);
+}
+
+.contact_icon_container{
+  top: 50%;
+  display: flex;
+  justify-content: space-around;
+  transition: all 0.2s;
+  text-align: center;
+  position: relative;
+}
+
+.contact_icon_container_1{
+  text-align: center;
+  width: 100%;
+}
+
+.contact_icon{
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  top: 0;
+  transition: all 0.5s ease;
+  width: 5vw;
+  height: 5vw;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;}
+
+.contact_icon_hovered{
+  top: -10px;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.contact_icon_text{
+  color: white;
+  text-decoration: none;
+  font-size: 100%;
+  font-family: "Raleway Italic";
+  transition: ease-in-out 1s;
+  white-space: nowrap;
+  cursor: pointer;
+  opacity: 0;
+}
+
+.contact_icon_text_hovered{
+  opacity: 1;
+  transform: translate(0px,5px);
+}
