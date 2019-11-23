@@ -1,7 +1,6 @@
 .resume_container{
-  height: 790px;
+  height: 100%;
   background-color: rgba(15, 15, 41, 0.94);
-  top:1580px;
 }
 
 .resume_title_container{
@@ -18,7 +17,6 @@
   /*margin-left: auto;
   margin-right: auto;*/
   font-family: "Raleway Light";
-  height: auto;
   margin: 0px 75px;
   display: inline-block;
 }
@@ -64,24 +62,18 @@
 
 .resume_text_container{
   top: 230%;
-  left: 50%;
-  transform: translateX(-335px);
-  width: 670px;
-  height: 250px;
   position: absolute;
   opacity: 0%;
 }
 .resume_text_container_visible{
-  top: 230%;
-  height: 250px;
   transition: ease-in-out 2s;
   opacity: 1;
   position: absolute;
+  display: inline-block;
 }
 
 .resume_text{
   color: white;
   font-size: 100%;
   font-family: "Raleway Light";
-  height: auto;
 }

@@ -10,6 +10,8 @@ import {RootComponent} from './components/root/root.component';
 import {AboutComponent} from './components/about/about.component';
 import {ResumeComponent} from './components/resume/resume.component';
 import {ContactComponent} from './components/contact/contact.component';
+import {WorkexperienceComponent} from './components/resume/workExperience/workexperience.component';
+import {QualificationsComponent} from './components/resume/qualifications/qualifications.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import {ContactComponent} from './components/contact/contact.component';
     RootComponent,
     AboutComponent,
     ResumeComponent,
-    ContactComponent
+    ContactComponent,
+    WorkexperienceComponent,
+    QualificationsComponent
   ],
   imports: [
     BrowserModule

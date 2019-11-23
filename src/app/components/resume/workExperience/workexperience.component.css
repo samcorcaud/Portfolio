@@ -1,0 +1,53 @@
+.workExperience_container{
+  width: 100%;
+}
+
+.experience1{
+  width: 100%;
+  display: inline-block;
+  left: 50%;
+  transform: translateX(35%);
+  border-radius: 15px;
+}
+
+.experience2{
+  width: 50%;
+  display: inline-block;
+  position: relative;
+  margin-top: 3%;
+  vertical-align: bottom;
+  left: 5%;
+}
+.resume_text{
+  margin-left: 2%;
+  color: white;
+  font-size: 100%;
+  height: auto;
+  font-family: "Raleway Bold Italic";
+  /*list-style-image: url("/assets/output-onlinepngtools.png");*/
+}
+.resume_text#subtitle{
+  font-family: "Raleway Italic";
+}
+.img_sopra{
+  width: 90px;
+  height: 80px;
+  position: relative;
+  left: 25%;
+  margin-bottom: 3%;
+}
+
+.img_sopra#key{
+  position: relative;
+  left: 10%;
+  margin-bottom: 3%;
+  width: 253px;
+  height: 53px;
+}
+.img_sopra#cvut{
+  position: relative;
+  left: 25%%;
+  margin-bottom: 3%;
+  width: 100px;
+  height: 100px;
+}

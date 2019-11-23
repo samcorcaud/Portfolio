@@ -17,7 +17,7 @@ export class ResumeComponent {
   qualificationsIsClicked() {
     this.click = 'qualifications';
   }
-  interetsIsClicked() {
+  projectsIsClicked() {
     this.click = 'projects';
   }
 }

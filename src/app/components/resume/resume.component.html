@@ -9,80 +9,15 @@
          [ngClass]="{'resume_title_selected':click == 'workExperience'}">Work experience</div>
     <div class="resume_title" (click)="qualificationsIsClicked();"
          [ngClass]="{'resume_title_selected':click == 'qualifications' }">Qualifications</div>
-    <div class="resume_title" (click)="interetsIsClicked();"
+    <div class="resume_title" (click)="projectsIsClicked();"
          [ngClass]="{'resume_title_selected':click == 'projects' }">Projects</div>
   </div>
-  <div [ngClass]="{'resume_text_container_visible':click == 'workExperience'}" class="resume_text_container" id="workExperience">
-    <li class="resume_text">
-      Software Engineer at Key Consulting (Spain, December – Now)​
-      <ol style="list-style: circle;">
-        <li>
-        Engineer for INSEE France.
-        </li>
-        <br/>
-        <li>
-          Technologies : Angular, Java EE, Spring, Hibernate​.
-        </li>
-      </ol>
-    </li>
-    <br/>
-    <li class="resume_text">
-    JEE Engineer at Sopra Steria (Spain, March – Now)​
-      <ol style="list-style: circle;">
-        <li>
-        Work as a JEE developer for the client GIP-MDS.
-        </li>
-        <br/>
-        <li>
-          Technologies : Java EE, Spring, Hibernate​, SQL, JQuery.​
-        </li>
-      </ol>
-    </li>
-    <br/>
-    <li class="resume_text">Animation of sign languages project (Czech Republic, July – November 2017)​
-      <br/>
-      at CVUT Technical University of Prague​
-      <ol style="list-style: circle;">
-        <li>
-          Work as a JEE developer for the client GIP-MDS.
-        </li>
-        <br/>
-        <li>
-          Technologies : Matlab, SQL.​
-        </li>
-      </ol>
-    </li>
-  </div>
-  <div [ngClass]="{'resume_text_container_visible':click == 'qualifications'}" class="resume_text_container" id="qualifications">
-    <li class="resume_text">
-      Degree specializing in computer science at ESEO Angers​
-      <br/>
-      Electronics and computer science engineering school (2016 – 2019)​
-      <ol style="list-style: circle;">
-        <li>
-        Team management, Electronics and computer science engineering, data-science specialty,
-        Finance analysis.
-        </li>
-      </ol>
-    </li>
-    <li class="resume_text">
-      HND at IUT Nantes (2014 – 2016)​ Electrical and IT engineering
-      <ol style="list-style: circle;">
-        <li>
-          Electrical engineering, IT engineering, Industrial computing.
-        </li>
-      </ol>
-    </li>
-    <li class="resume_text">Scientific High School diploma at Lycée Notre-Dame (2011 – 2014)​
-      <br/>
-      Scientific courses in high school​
-      <ol style="list-style: circle;">
-        <li>
-          Biology, Mathematics and Physics specialty​.
-        </li>
-      </ol>
-    </li>
-  </div>
+  <workexperience-component [ngClass]="{'resume_text_container_visible':click == 'workExperience'}" class="resume_text_container" id="workExperience">
+
+  </workexperience-component>
+  <qualifications-component [ngClass]="{'resume_text_container_visible':click == 'qualifications'}" class="resume_text_container" id="qualifications">
+
+  </qualifications-component>
   <div [ngClass]="{'resume_text_container_visible':click == 'projects'}" class="resume_text_container" id="projects">
     <li class="resume_text">
       Interests in all type of new technologies, reading of many articles.
